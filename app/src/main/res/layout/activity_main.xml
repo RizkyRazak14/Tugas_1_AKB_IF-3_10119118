@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor2"
+            android:textColor="@color/buttonTextColor"
+            android:text="PROFIL SAYA"/>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor3"
+            android:textColor="@color/buttonTextColor"
+            android:text="KELUAR"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <!--
+    Pengerjaan    : 22 April 2022
+    NIM           : 10119118
+    Nama          : Rizky Septiana Abdul Razak
+    Kelas         : IF - 3
+    -->

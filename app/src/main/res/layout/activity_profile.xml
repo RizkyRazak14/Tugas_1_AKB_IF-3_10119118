@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/profileimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rizky"
+            android:layout_marginTop="160dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="PROFIL SAYA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/profileimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:text="NIM : 10119118"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:text="NAMA : RIZKY SEPTIANA ABDUL RAZAK"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:text="KELAS : IF-3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:text="Saya adalah seorang mahasiswa semester 6 jurusan Teknik Informatika di Universitas Komputer Indonesia. Saat ini saya sedang fokus mengejar cita cita saya untuk menjadi seorang mobile developer. Harapan saya kedepannya, saya bisa memiliki perusahaan sendiri di bidang IT."
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+    <!--
+    Pengerjaan    : 22 April 2022
+    NIM           : 10119118
+    Nama          : Rizky Septiana Abdul Razak
+    Kelas         : IF - 3
+    -->
